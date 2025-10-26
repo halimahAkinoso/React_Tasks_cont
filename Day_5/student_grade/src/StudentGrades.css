@@ -1,0 +1,37 @@
+.student-grades-container {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.filter-buttons button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+.total-count {
+  margin-top: 20px;
+  font-weight: bold;
+}

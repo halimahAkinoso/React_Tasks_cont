@@ -1,0 +1,53 @@
+.countdown-container {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.countdown-display {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.time-segment {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  min-width: 70px;
+}
+
+.time-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0078d4;
+}
+
+.time-label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+.event-started {
+  font-size: 1.5rem;
+  color: #d83b01;
+  font-weight: bold;
+}

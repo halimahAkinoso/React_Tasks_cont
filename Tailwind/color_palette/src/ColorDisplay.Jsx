@@ -23,9 +23,7 @@ const ColorDisplay = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {colors.map((color, index) => (
           <div key={index} className="flex flex-col items-center">
-            <div
-              className={`w-24 h-24 sm:w-28 sm:h-28 rounded-lg shadow-md ${color.class}`}
-            ></div>
+            <div className={`w-24 h-24 sm:w-28 sm:h-28 rounded-lg shadow-md ${color.class}`}></div>
             <div className="mt-2 text-center">
               <p className="font-semibold text-sm">{color.name}</p>
               <p className="text-xs text-gray-500">{color.hex}</p>

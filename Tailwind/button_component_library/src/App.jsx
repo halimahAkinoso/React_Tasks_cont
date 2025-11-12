@@ -14,9 +14,7 @@ const App = () => {
         <Button size="large" variant="primary">Large Size</Button>
         <Button size="small" variant="primary">Small Size</Button>
       </div>
-      <div>
-        <Button />
-      </div>
+      
     </div>
   );
 };

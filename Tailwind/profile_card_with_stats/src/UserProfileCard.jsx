@@ -7,7 +7,7 @@ const UserProfileCard = () => {
       <div className="h-24 rounded-t-xl bg-gradient-to-r from-[#008753] via-[#008753] to-white relative">
         {/* Avatar */}
         <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2">
-           <img src="/assets/my-image.jpg"// Replace with your image path
+           <img src="/src/assets/my-image.jpg"
     alt="Avatar"
     className="w-24 h-24 rounded-full border-4 border-white object-cover"
   />

@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import Button from './Button';
-import './App.css'; // Assuming you have your Tailwind CSS imported here
+import './App.css'; 
 
 const App = () => {
   return (

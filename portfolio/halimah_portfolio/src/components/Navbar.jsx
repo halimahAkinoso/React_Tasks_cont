@@ -9,9 +9,10 @@ export default function Navbar() {
     <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-6 lg:px-20 flex justify-between items-center h-16">
         {/* Logo / Name */}
-        <div className="text-xl font-bold tracking-tight text-black">
-          Halimah
-        </div>
+       <div className="flex items-center text-gray-400">
+            <span className="mr-2" role="img" aria-label="globe">🌐</span>
+            <span className="text-sm font-semibold">Halimah</span>
+          </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 font-medium text-slate-700">
@@ -66,5 +67,5 @@ export default function Navbar() {
         )}
       </Transition>
     </nav>
-  );
+  )
 }
